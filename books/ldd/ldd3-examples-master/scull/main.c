@@ -564,7 +564,7 @@ struct file_operations scull_fops = {
 
 /*
  * The cleanup function is used to handle initialization failures as well.
- * Thefore, it must be careful to work correctly even if some of the items
+ * Therefore, it must be careful to work correctly even if some of the items
  * have not been initialized
  */
 void scull_cleanup_module(void)
